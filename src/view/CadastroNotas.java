@@ -241,6 +241,7 @@ public class CadastroNotas extends javax.swing.JFrame {
         if (jTNotas.getSelectedRow() != -1) {
             tableModel.removeRow(jTNotas.getSelectedRow());
         }
+        limparCampos();
     }// GEN-LAST:event_btnExcluirActionPerformed
 
     private void btnSalvarActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_btnSalvarActionPerformed
